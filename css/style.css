@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+    background: #24274b;
+
+}
+
+section{
+        width: 300%;
+        max-width: 1300px;
+    height: 700px;
+    border: 1px solid beige;
+    margin: 90px auto;
+}
+
+
+#fila{
+    width: 100%;
+    height: 50%;
+        display: flex;
+}
+
+#foto{
+    width: 35%;
+    height: 100%;
+    
+}
+
+#info{
+    width: 35%;
+    padding-left: 150px;
+}
+
+#info h2{
+    color: rgb(25, 145, 167);
+    font-size: 32px ;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#info h1{
+    color: rgb(49, 233, 240);
+    font-size: 41px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#info #detalle{
+    width: 110px;
+    height: 4px;
+    background: #020961;
+
+}
+#info p{
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#info article{
+    border: 4px solid #070c4d;
+    width: 100%;
+
+}
+
+article ul li{
+    color: rgb(237, 244, 250);
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#info #redes{
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
